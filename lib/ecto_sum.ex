@@ -3,16 +3,9 @@ defmodule EctoSum do
   Documentation for `EctoSum`.
   """
 
-  @doc """
-  Hello world.
-
-  ## Examples
-
-      iex> EctoSum.hello()
-      :world
-
-  """
-  def hello do
-    :world
+  defmacro __using__(_opts) do
+    quote do
+      use Ecto.Type
+    end
   end
 end
