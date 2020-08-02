@@ -1,6 +1,6 @@
-defmodule EctoSum do
+defmodule EctoSumEmbed do
   @moduledoc """
-  Documentation for `EctoSum`.
+  Documentation for `EctoSumEmbed`.
   """
 
   defmacro __using__(opts) do

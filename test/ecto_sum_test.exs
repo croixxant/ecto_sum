@@ -1,8 +1,8 @@
-defmodule EctoSumTest do
+defmodule EctoSumEmbedTest do
   use ExUnit.Case
-  doctest EctoSum
+  doctest EctoSumEmbed
 
   test "greets the world" do
-    assert EctoSum.hello() == :world
+    assert EctoSumEmbed.hello() == :world
   end
 end
